@@ -31,6 +31,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen justify-center p-24 text-black">
+      <div>change</div>
       <div className="bg-white rounded-lg shadow-lg p-8">
         <h1 className="text-4xl py-8 font-bold text-center">Message board</h1>
         <ul className="space-y-4">
@@ -43,6 +44,7 @@ export default function Home() {
             </li>
           ))}
         </ul>
+        <p>sss</p>
         <textarea
           value={input}
           onChange={(e) => setInput(e.target.value)}
