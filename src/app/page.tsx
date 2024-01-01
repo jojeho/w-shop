@@ -66,14 +66,8 @@ export default function Home() {
   return (
 
     // <main className='flex flex-col flex-grow  text-gray-300  '>
-
       <main className="light light:bg-white"> 
-
-      
-     
-
       <TrendingSlider></TrendingSlider>
-     
      <div className='px-20 flex flex-col gap-12'>
        <Recoment ></Recoment>
        <Divider></Divider>
@@ -85,8 +79,7 @@ export default function Home() {
         </ul>
         <About></About>
         </div>
-     
-      
+
     </main>
 
   )
