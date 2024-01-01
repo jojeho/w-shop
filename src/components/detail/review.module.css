@@ -1,0 +1,2 @@
+.rate{background: url(../../../public/images/review/star_bg02.png) no-repeat;width: 121px;height: 20px;position: relative;}
+.rate span{position: absolute;background:url(../../../public/images/review/star02.png);width: auto;height: 20px;}
