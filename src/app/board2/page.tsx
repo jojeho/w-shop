@@ -32,8 +32,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen justify-center p-24 text-black">
       <div className="bg-white rounded-lg shadow-lg p-8">
-        <div>change</div>
-        <div>change</div>
+        
         <h1 className="text-4xl py-8 font-bold text-center">Message board</h1>
         <ul className="space-y-4">
           {messages?.map((message) => (
